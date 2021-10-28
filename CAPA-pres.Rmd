@@ -15,6 +15,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+
 class: center, middle, inverse
 
 ```{r setup, include=FALSE}
@@ -37,18 +38,7 @@ xaringanExtra::use_progress_bar(color = "#88ac82", location = "top")
 
 #### [`r fontawesome::fa("link")` harvestproject.eu](https://www.harvestproject.eu)
 
-<!--
-# Exploring Dental Calculus and Diet Through an Oral Biofilm Model
 
-**Bjørn Peare Bartholdy and Amanda G. Henry**
-
-CAPA-ACAP 2021
-
-.pull-right[
-.bottom[
-`r fontawesome::fa("link")` [HARVEST Project](harvestproject.eu)
-]
-]-->
 ---
 class: bottom, right
 
@@ -58,6 +48,9 @@ class: bottom, right
 `r fontawesome::fa("github")` [bbartholdy](https://github.com/bbartholdy)
 `r fontawesome::fa("link")` [bjorn.rbind.io](https://bjorn.rbind.io)
 
+---
+layout: true
+<div class="footer"><a href="https://harvestproject.eu"><span>harvestproject.eu</span></a></div>
 ---
 class: middle
 
@@ -289,9 +282,9 @@ ratio_plots_out
 
 .pull-right[
 
-Shift in size ratios from solution (outer ring) to sample (inner ring)
-
 <br>
+
+Shift in size ratios from solution (outer ring) to sample (inner ring)
 
 ```{r incorp-tbl-2}
 knitr::kable(perc_tbl_out) %>%
@@ -370,11 +363,19 @@ class: middle
 
 ## Kinks in the model
 
+--
+
 No amylase (a beneficial side-effect?)
+
+--
 
 Deposits are not particularly large (ca. 1-10 $\mu$g)
 
+--
+
 Extrapolation of starch counts likely not 100% accurate
+
+--
 
 Starch delivery system is not perfect
 - substrata are transferred to plate with starch solutions
@@ -389,11 +390,15 @@ class: middle
   
 - extraction using various dissolution agents (e.g. EDTA and HCl)
 - DNA and protein extraction and identification biases
+
+--
   
 **Training extraction and identification of starches (and other remains)**
 
 - no need to use finite archaeological remains
 - no ethical considerations
+
+--
 
 **High degree of control over multiple factors**
 
@@ -450,11 +455,11 @@ knitr::include_graphics("assets/img/openscience.png")
 
 .right-column[
 .center[
-Slides available (with source code):
+Slides available (with data and code):
+
+<https://bbartholdy.github.io/capa2021-pres/CAPA-pres.html#1>
 
 <https://osf.io/5fbxw/>
-
-Data and code available: [GitHub and OSF placeholder]
 
 Protocols available: 
 
@@ -465,7 +470,6 @@ Pre-print available:
 <https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1>
 ]
 ]
-
 
 ---
 class: middle

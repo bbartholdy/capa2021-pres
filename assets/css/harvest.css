@@ -106,3 +106,20 @@ th, td { padding: 5px; }
     left: 0 !important;
   }
 }
+
+/* experimental footer */
+
+div.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    height: 25px;
+    width: 20%;
+}
+div.footer span {
+    font-size: 14pt;
+    color: #88ac82;
+    position: absolute;
+    left: 75px;
+    bottom: 2px;
+}
