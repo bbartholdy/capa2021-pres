@@ -29,7 +29,6 @@ source("assets/scripts/pres-script.R")
 xaringanExtra::use_progress_bar(color = "#88ac82", location = "top")
 ```
 
-
 # `r rmarkdown::metadata$title`
 
 ### `r rmarkdown::metadata$author`
@@ -38,7 +37,9 @@ xaringanExtra::use_progress_bar(color = "#88ac82", location = "top")
 
 #### [`r fontawesome::fa("link")` harvestproject.eu](https://www.harvestproject.eu)
 
-
+---
+layout: true
+<div class="footer"><a href="https://harvestproject.eu"><img src="assets/img/plantagonewtinygreen.svg"/><span>harvestproject.eu</span></a></div>
 ---
 class: bottom, right
 
@@ -49,14 +50,9 @@ class: bottom, right
 `r fontawesome::fa("link")` [bjorn.rbind.io](https://bjorn.rbind.io)
 
 ---
-layout: true
-<div class="footer"><a href="https://harvestproject.eu"><span>harvestproject.eu</span></a></div>
----
 class: middle
 
 ## Dental calculus and diet
-
-<!-- and, but, therefore -->
 
 Dental calculus has become a widely used substance for multiple avenues of 
 archaeological research
@@ -130,6 +126,7 @@ treatments (caries, periodontitis, etc.)
 Lack of interest from dental research since then
 
 ---
+class: middle
 
 ## Types of biofilm models
 
@@ -205,6 +202,7 @@ class: center, middle, inverse
 ## Results
 
 ---
+class: middle
 
 ## End product
 
@@ -216,6 +214,7 @@ knitr::include_graphics("assets/img/byoc_comparison.png")
 ```
 
 ---
+class: middle
 
 ## Extraction and quantification of starches
 
@@ -485,6 +484,7 @@ Dr. Stephanie Schnorr
 This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement number STG–677576 (“HARVEST”). 
 
 ---
+class: middle
 
 ## References
 
